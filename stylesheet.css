@@ -1,0 +1,48 @@
+html {
+    font-size: 100%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+}
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #222;
+    background: #fff;
+    font-family: 'Oswald';
+  }
+
+  a {
+    color: #222;
+  }
+
+  .section-one{
+
+  }
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    background-color: aliceblue;
+}
+
+.nav-menu{
+    
+}
+
+  
