@@ -1,6 +1,12 @@
-const toggleButton = document.querySelector(".toggle-button")
-const navbarLinks = document.querySelector(".navbar-links")
+const navToggle = document.querySelector("#navToggle")
+const nav = document.querySelector("#nav-links")
 
-navbarLinks.addEventListener("click", () => {
-    toggleButton.classList.toggle("active")
+navToggle.addEventListener("click", () => {
+    nav.classList.toggle('nav-open')
 })
+
+let changeIcon = function(icon) {
+    icon.classList.toggle('fa-times')
+}
+
+changeIcon = (icon) => icon.classList.toggle('fa-times')
